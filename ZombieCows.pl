@@ -67,7 +67,7 @@ creer_zombie:-
   retract(vache(X1,Y1,Race,vivante)).
 
 question(R):-
-  write("Dans quelle direction déplacer Dimitri?"),
+  write("Dans quelle direction dÃ©placer Dimitri?"),
   nl,
   read(R).
 
@@ -213,7 +213,7 @@ initialisation :-
   placer_dimitri,
   creer_zombie.
 
-% le reste est le code prédéfini du jeu
+% le reste est le code prÃ©dÃ©fini du jeu
 
 affichage(L, _) :-
   largeur(L),
